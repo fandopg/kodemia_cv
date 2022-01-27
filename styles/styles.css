@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+  }
+.main {
+    background-image: url("../img/bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.info {
+    width: 70%;
+    height: 10%;
+    border: 2px solid white;
+    background-color: rgba(66, 65, 65, 0.507);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-weight: bold;
+    font-size: 2.7vw;
+}
+
+
